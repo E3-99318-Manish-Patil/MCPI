@@ -60,8 +60,8 @@ all: main-build
 main-build: Que-1.elf secondary-outputs
 
 # Tool invocations
-Que-1.elf Que-1.map: $(OBJS) $(USER_OBJS) /home/manish/CDAC-DESD/MCPI\ assignments\ Solutions/Assignment\ No-2/Que-1/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Que-1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/manish/CDAC-DESD/MCPI assignments Solutions/Assignment No-2/Que-1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Que-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Que-1.elf Que-1.map: $(OBJS) $(USER_OBJS) /home/manish/kk/MCPI/Assignment\ No-2/Que-1/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Que-1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/manish/kk/MCPI/Assignment No-2/Que-1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Que-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

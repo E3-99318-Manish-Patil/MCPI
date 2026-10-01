@@ -3048,18 +3048,18 @@ LOAD /home/manish/st/stm32cubeide_2.2.0/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_line    0x00003ec9      0xd7f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_line    0x00004c48     0x24b8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
-.debug_str      0x00000000    0xc1ed0
- .debug_str     0x00000000    0xc1ed0 ./Core/Src/main.o
-                              0xc073e (size before relaxing)
- .debug_str     0x000c1ed0    0xbd3c1 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_str     0x000c1ed0    0xbce0b ./Core/Src/stm32f4xx_it.o
- .debug_str     0x000c1ed0    0xbcf35 ./Core/Src/system_stm32f4xx.o
- .debug_str     0x000c1ed0       0x92 ./Core/Startup/startup_stm32f407vgtx.o
- .debug_str     0x000c1ed0    0xbdab9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_str     0x000c1ed0    0xbd835 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_str     0x000c1ed0    0xbd0b0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_str     0x000c1ed0    0xbd369 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_str     0x000c1ed0    0xbd94a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+.debug_str      0x00000000    0xc1f01
+ .debug_str     0x00000000    0xc1f01 ./Core/Src/main.o
+                              0xc0721 (size before relaxing)
+ .debug_str     0x000c1f01    0xbd3c1 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_str     0x000c1f01    0xbce0b ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x000c1f01    0xbcf35 ./Core/Src/system_stm32f4xx.o
+ .debug_str     0x000c1f01       0x92 ./Core/Startup/startup_stm32f407vgtx.o
+ .debug_str     0x000c1f01    0xbdab9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x000c1f01    0xbd835 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x000c1f01    0xbd0b0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_str     0x000c1f01    0xbd369 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x000c1f01    0xbd94a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Core/Src/main.o
