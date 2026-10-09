@@ -2,7 +2,7 @@
  * accel_init.c
  *
  *  Created on: 30-Sept-2026
- *      Author: pranav
+ *      Author: manish
  */
 
 #include "accel_init.h"
